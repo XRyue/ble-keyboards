@@ -14,12 +14,7 @@
 		zmk,underglow = &led_strip;
 	};
 
-         matrix: matrix {
-           compatible = "zmk,matrix";
-           rows-gpios = <&gpio0 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;  // 行引脚：P0.12
-           cols-gpios = <&gpio0 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;     // 列引脚：P0.13
-           wakeup-source;  // 关键！标记矩阵行/列为唤醒源
-       };
+
 
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
