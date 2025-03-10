@@ -1,3 +1,4 @@
+@ -0,0 +1,102 @@
 /*
  * Copyright (c) 2020 The ZMK Contributors
  *
@@ -17,7 +18,7 @@
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
 		label = "KSCAN";
-        	
+
 		diode-direction = "col2row";
 		col-gpios
 			= <&gpio0 26 GPIO_ACTIVE_HIGH>
