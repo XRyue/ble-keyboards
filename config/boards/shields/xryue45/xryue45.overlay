@@ -75,6 +75,11 @@
     };
 };
 
+&gpio0 {
+    status = "okay";
+    wakeup-source; 
+};
+
 &spi3 {
   compatible = "nordic,nrf-spim";
   status = "okay";
