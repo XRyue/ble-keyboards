@@ -11,7 +11,7 @@
 / {
 	chosen {
 		zmk,kscan = &kscan0;
-		zmk,matrix_transform = &default_transform;
+		//zmk,matrix_transform = &default_transform;
 		zmk,underglow = &led_strip;
 		zmk,physical-layout = &xryue45_layout;
 	};
@@ -61,6 +61,11 @@
         RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(3,6) RC(3,7) RC(3,8) RC(3,9) RC(3,10) RC(3,11) RC(3,12) RC(3,13) RC(3,14) RC(3,15)
 		>;
 	};
+};
+
+
+&xryue45_layout {
+    transform = <&default_transform>;
 };
 &pinctrl {
     spi3_default: spi3_default {
