@@ -1,14 +1,14 @@
 #include <physical_layouts.dtsi>
 
 / {
-    xryue45_layout: xryue45_layout0 {
+    physical_layout0: physical_layout_0 {
         compatible = "zmk,physical-layout";
-        display-name = "xryue45layout";
+        display-name = "five_column_transform";
 
         //kscan = <&kscan0>;
-        //transform = <&matrix_transform>;
+        //transform = <&matrix_transform0>;
 
-         keys  //                     w   h    x    y     rot    rx    ry
+        keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  100    0       0     0     0>
             , <&key_physical_attrs 100 100  200    0       0     0     0>
