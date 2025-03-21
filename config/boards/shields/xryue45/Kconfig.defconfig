@@ -4,6 +4,6 @@
 if SHIELD_xryue45
 
 config ZMK_KEYBOARD_NAME
-	default "jiage666"
+	default "xryue45"
 
 endif
