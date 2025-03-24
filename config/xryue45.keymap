@@ -13,7 +13,7 @@
         pin: pin {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp N1 &kp N2 &kp N3 &kp N1 &kp N2 &kp N3>;
+            bindings = <&kp N2 &kp N3 &kp N0 &kp N6 &kp N1 &kp N8>;
         };
 
         xzw: xzw {
