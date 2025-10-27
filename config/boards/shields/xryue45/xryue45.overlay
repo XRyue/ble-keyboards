@@ -17,7 +17,7 @@
 	};
     xryue45_layout: xryue45_layout0 {
         compatible = "zmk,physical-layout";
-        display-name = "five_column_transform";
+        display-name = "xryue45";
 
         kscan = <&kscan0>;
         transform = <&default_transform>;
@@ -137,9 +137,19 @@
 };
 
 
-//&xryue45_layout {
-    //transform = <&default_transform>;
-//};
+&xryue45_layout {
+    transform = <&default_transform>;
+	kscan = <&kscan0>;
+};
+
+zephyr_udc0: &usbd { 
+
+    compatible = "nordic,nrf-usbd"; 
+
+    status = "okay"; 
+
+};
+
 &pinctrl {
     spi3_default: spi3_default {
         group1 {
