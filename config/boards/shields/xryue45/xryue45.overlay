@@ -13,7 +13,7 @@
 		zmk,physical-layout = &xryue45_layout;
 	};
 
-        xryue45_layout: xryue45_layout0 {
+    xryue45_layout: xryue45_layout0 {
         compatible = "zmk,physical-layout";
         display-name = "xryue45";
         kscan = <&kscan0>;
