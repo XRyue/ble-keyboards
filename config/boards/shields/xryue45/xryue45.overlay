@@ -16,8 +16,6 @@
 		zmk,underglow = &led_strip;
 	};
 
-
-
 	kscan0: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
 		label = "KSCAN";
@@ -61,7 +59,6 @@
 		>;
 	};
 };
-
 &pinctrl {
     spi3_default: spi3_default {
         group1 {
