@@ -137,18 +137,7 @@
 };
 
 
-&xryue45_layout {
-    transform = <&default_transform>;
-	kscan = <&kscan0>;
-};
 
-zephyr_udc0: &usbd { 
-
-    compatible = "nordic,nrf-usbd"; 
-
-    status = "okay"; 
-
-};
 
 &pinctrl {
     spi3_default: spi3_default {
