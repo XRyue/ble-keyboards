@@ -10,11 +10,9 @@
 
 / {
 	chosen {
-		//zmk,kscan = &kscan0;
-		//zmk,matrix_transform = &default_transform;
-		//zmk,underglow = &led_strip;
 		zmk,physical-layout = &xryue45_layout;
 	};
+
         xryue45_layout: xryue45_layout0 {
         compatible = "zmk,physical-layout";
         display-name = "xryue45";
