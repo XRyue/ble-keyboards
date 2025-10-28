@@ -15,7 +15,7 @@
 		//zmk,underglow = &led_strip;
 		zmk,physical-layout = &xryue45_layout;
 	};
-    xryue45_layout: xryue45_layout0 {
+        xryue45_layout: xryue45_layout0 {
         compatible = "zmk,physical-layout";
         display-name = "xryue45";
         kscan = <&kscan0>;
@@ -48,7 +48,7 @@
             , <&key_physical_attrs 100 100  850  100       0     0     0>
             , <&key_physical_attrs 100 100  950  100       0     0     0>
             , <&key_physical_attrs 100 100 1050  100       0     0     0>
-            , <&key_physical_attrs 100 100    0    0       0     0     0>
+          
             , <&key_physical_attrs 100 100 1150  100       0     0     0>
             , <&key_physical_attrs 100 100 1250  100       0     0     0>
             , <&key_physical_attrs 100 100 1350  100       0     0     0>
@@ -77,10 +77,9 @@
             , <&key_physical_attrs 100 100  500  300       0     0     0>
             , <&key_physical_attrs 100 100  600  300       0     0     0>
             , <&key_physical_attrs 125 100  700  300       0     0     0>
-            , <&key_physical_attrs 100 100    0    0       0     0     0>
+            
             , <&key_physical_attrs 175 100  825  300       0     0     0>
             , <&key_physical_attrs 175 100 1000  300       0     0     0>
-            , <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 125 100 1175  300       0     0     0>
             , <&key_physical_attrs 100 100 1300  300       0     0     0>
             , <&key_physical_attrs 100 100 1400  300       0     0     0>
