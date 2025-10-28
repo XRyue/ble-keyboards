@@ -11,6 +11,7 @@
 / {
 	chosen {
 		zmk,physical-layout = &xryue45_layout;
+		zmk,kscan = &kscan0;
 	};
 
     xryue45_layout: xryue45_layout0 {
