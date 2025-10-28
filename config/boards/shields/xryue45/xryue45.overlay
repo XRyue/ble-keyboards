@@ -20,7 +20,6 @@
         display-name = "xryue45";
         kscan = <&kscan0>;
         transform = <&default_transform>;
-
         keys  //                     w   h    x    y     rot    rx    ry
             = <&key_physical_attrs 100 100    0    0       0     0     0>
             , <&key_physical_attrs 100 100  100    0       0     0     0>
@@ -98,18 +97,15 @@
 			= <&gpio0 26 GPIO_ACTIVE_HIGH>
 			, <&gpio0 30 GPIO_ACTIVE_HIGH>
 			, <&gpio0 31 GPIO_ACTIVE_HIGH>
-			, <&gpio0 29 GPIO_ACTIVE_HIGH>
-			
+			, <&gpio0 29 GPIO_ACTIVE_HIGH>			
 			, <&gpio0 12 GPIO_ACTIVE_HIGH>
 			, <&gpio0 7 GPIO_ACTIVE_HIGH>
 			, <&gpio0 17 GPIO_ACTIVE_HIGH>
-			, <&gpio0 20 GPIO_ACTIVE_HIGH>
-			
+			, <&gpio0 20 GPIO_ACTIVE_HIGH>			
 			, <&gpio0 13 GPIO_ACTIVE_HIGH>
 			, <&gpio0 22 GPIO_ACTIVE_HIGH>
 			, <&gpio0 24 GPIO_ACTIVE_HIGH>
-			, <&gpio1 0 GPIO_ACTIVE_HIGH>
-			
+			, <&gpio1 0 GPIO_ACTIVE_HIGH>			
 			, <&gpio1 4 GPIO_ACTIVE_HIGH>
 			, <&gpio0 9 GPIO_ACTIVE_HIGH>
 			, <&gpio1 6 GPIO_ACTIVE_HIGH>
@@ -135,20 +131,6 @@
 		>;
 	};
 };
-
-
-//&xryue45_layout {
- //   transform = <&default_transform>;
-//	kscan = <&kscan0>;
-//};
-
-//zephyr_udc0: &usbd { 
-
-//    compatible = "nordic,nrf-usbd"; 
-
-//    status = "okay"; 
-
-//};
 
 &pinctrl {
     spi3_default: spi3_default {
