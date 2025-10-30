@@ -20,7 +20,6 @@
 &kp LSHFT  &kp Z      &kp X     &kp C      &kp V   &kp B     &kp N      &kp M   &kp COMMA  &kp DOT     &kp FSLH  &none       &none       &kp UP
 &kp LCTRL  &kp LWIN   &kp LALT  &none      &none   &kp SPACE &none      &none   &none      &kp ENTER   &kp LEFT  &none       &kp DOWN    &kp RIGHT  
             >;
-        };
-
+            };
         };        
     };
